@@ -1,0 +1,3 @@
+这是一个使用transformer来快速预测材料声子态密度的项目
+./data下存放了我们从JARVIS-DFT和PhononDB获取的结构和数据，你可以通过直接执行train_script.sh来从头训练用于验证实验的有效性
+在这之后，你可以将想用于预测的结构文件放在./data/test_cif下面，然后通过执行test_cif.py来获得完整的预测结果
